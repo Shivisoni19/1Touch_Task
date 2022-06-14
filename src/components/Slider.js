@@ -10,7 +10,8 @@ import slide7 from "../img/slide7.jpg"
 const Slider = () => {
   return (
     <>
-     <div className='row border-bottom'>
+    <div className="container-fluid">
+    <div className='row border-bottom'>
       <marquee>
         <img src={slide1} alt=""/>
         <img src={slide2} alt=""/>
@@ -21,6 +22,7 @@ const Slider = () => {
         <img src={slide7} alt=""/>
       </marquee>
      </div> 
+    </div>
     </>
   )
 }
