@@ -1,119 +1,181 @@
-
 /* --------------------Navbar css----------------------- */
 .text-orange {
-    color: #fe7410;
-  }
-  .navbar-light .navbar-toggler-icon {
-    background-image: url('/src/img/burger-icon-png.png') !important;
-    width: 4.5vw;
-    margin-top: 1vh;
-  }
-  .button:focus:not(:focus-visible) {
-    outline: 0;
-  }
-  
-  .navbar-toggler {
-    padding: 0.10rem 0.6rem !important;  
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    transition: box-shadow .15s ease-in-out;
-  }
-  
-  .navbar-light .navbar-toggler {
-    border-color: white !important;
-  }
-  
-  .navbar-light .navbar-toggler {
-    color: transparent !important;
-  }
-  .navbar-brand{
-    font-family: "Gilroy_Bold";
-      padding-top: 0.3125rem;
-      padding-bottom: 0.3125rem;
-      margin-right: 1rem;
-      font-size: 2rem;
-      text-decoration: none;
-      white-space: nowrap;
-      /* font-weight: 300 !important; */
-      margin-left: -36px;
-  }
-  .text-light-yellow{
-    color: #f8efa7;
-  }
-  .bg-color{
-    background-color: #00444e;
-  }
-  .hover Link:hover{
-    color: #f8efa7;
-    background-color: #f8efa7;
-  }
-  .btn-radius{
-    border-radius: 20px;
-  }
-  .font-13{
-    font-size: 13px;
-  }
-  .font-bold{
-    font-weight: bold;
-  }
-  .btn-login btn:hover{
+  color: #fe7410;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url('/src/img/burger-icon-png.png') !important;
+  width: 4.5vw;
+  margin-top: 1vh;
+}
+.button:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+.navbar-toggler {
+  padding: 0.1rem 0.6rem !important;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: white !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent !important;
+}
+.navbar-brand {
+  font-family: 'Gilroy_Bold';
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  white-space: nowrap;
+  /* font-weight: 300 !important; */
+  margin-left: -36px;
+}
+.text-light-yellow {
   color: #f8efa7;
-  }
-  .animated-img{
-    animation: float 1s ease-out infinite;
-  }
-  .zoom {
-    transition: 0.4s;
- }
- .btn-footer{
-    text-decoration: none;
-    color: white;
- }
- .btn-footer a:hover{
-    color: #f8efa7 !important;
- }
+}
+.bg-color {
+  background-color: #00444e;
+}
+.hover link:hover {
+  color: #f8efa7;
+  background-color: #f8efa7;
+}
+.btn-radius {
+  border-radius: 20px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.btn-login btn:hover {
+  color: #f8efa7;
+}
+.animated-img {
+  animation: float 1s ease-out infinite;
+}
+.zoom {
+  transition: 0.4s;
+}
+.btn-footer {
+  text-decoration: none;
+  color: white;
+}
+.btn-footer a:hover {
+  color: #f8efa7 !important;
+}
 
-
- .zoom {
+.zoom {
   padding: 50px;
   /* background-color: green; */
-  transition: transform .2s; /* Animation */
+  transition: transform 0.2s; /* Animation */
 }
 
 .zoom:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
- 
-  /* --------------------Mobile View Css start----------------- */
-@media only screen and (max-width: 570px) {
-    .header{
-      display: none;
-    }
-    .logo{
-      margin-left: 1em;
-    }
-  }
-  @media only screen and (max-width: 450px) {
- .animated-img{
-  width: 270px;
- }
-  }
-  @media only screen and (max-width: 350px) {
-    .animated-img{
-     width: 150px;
-    }
-  }
-  @media only screen and (max-width: 960px) {
+.head {
+  margin-right: none !important;
+  margin-left: none !important;
+}
+.owl-theme .owl-dots .owl-dot {
+  zoom: 0.5 !important;
+}
 
-    .btn-login{
-      width: 160px;
-      /* border-radius: none; */
-      margin-left: 1em;
-      margin-top: 1em;
-    }
+.owl-theme .owl-dots .owl-dot span {
+  width: 6px !important;
+  height: 6px !important;
+  margin: 2px 2px !important;
+  background: #d6d6d6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #ffc100 !important;
+}
+
+.owl-carousel.owl-drag .owl-item.center > div {
+  width: 21vw !important;
+  height: 16vw !important;
+  margin-left: -2vw !important;
+  margin-top: -2.8vw !important;
+}
+
+.cent {
+  height: 10vw !important;
+  width: 16vw !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  border: 1px solid white !important;
+  border-radius: 50%;
+  background-color: white !important;
+  color: #102754 !important;
+  border: none;
+  padding: 0 !important;
+  font-weight: bolder !important;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.owl-carousel .owl-nav button.owl-next {
+  border: 1px solid white !important;
+  border-radius: 50%;
+  background-color: white !important;
+  color: #102754 !important;
+  font-weight: bolder !important;
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 0 !important;
+  /* margin-top: -1em; */
+}
+.text-underline{
+  text-decoration: none !important;
+}
+
+/* --------------------Mobile View Css start----------------- */
+@media only screen and (max-width: 570px) {
+  .header {
+    display: none;
   }
-  /* --------------------Mobile View Css End----------------- */
-  
+  .logo {
+    margin-left: 1em;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .animated-img {
+    width: 270px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .animated-img {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .btn-login {
+    width: 160px;
+    /* border-radius: none; */
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+}
+/* --------------------Mobile View Css End----------------- */
