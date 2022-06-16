@@ -41,7 +41,7 @@ export default function CustomNavbar() {
               <li className="nav-item">
               <Link
                   className="nav-link mx-3 text-white font-44"
-                  to="/Blogs"
+                  to="/slider1"
                 >
                   Register Earn
                 </Link>

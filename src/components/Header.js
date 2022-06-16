@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <div className='border-bottom header d-lg-block d-sm-none'>
-        <div className='row'>
+        <div className='row head ml-0 mr-0'>
           <div className='col-5'>
              <h6 className='text-uppercase text-light-yellow offset-1 pt-4 pb-4'>OPEN NOW FRIDAY 7H00-13H00</h6>
           </div>
