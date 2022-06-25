@@ -124,7 +124,7 @@ const Footer = () => {
   {/* <!-- Section: Links  --> */}
 
   {/* <!-- Copyright --> */}
-  <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
+  <div className="text-center p-4 d-sm-none" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
     © 2021 Copyright:
     <a className="text-reset text-underline fw-bold text-underline" href="https://mdbootstrap.com/">1TouchDevelopment.com</a>
   </div>
